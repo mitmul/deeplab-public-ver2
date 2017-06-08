@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ## MODIFY PATH for YOUR SETTING
-ROOT_DIR=../
+ROOT_DIR=.
 
 CAFFE_DIR=../build/install
 CAFFE_BIN=${CAFFE_DIR}/bin/caffe
@@ -19,7 +19,7 @@ fi
 
 ## Specify which model to train
 ########### voc12 ################
-NET_ID=deeplab_largeFOV
+NET_ID=deeplab_ResNet101
 
 
 ## Variables used for weakly or semi-supervisedly training
